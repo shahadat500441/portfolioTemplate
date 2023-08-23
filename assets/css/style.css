@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:wght@300;400;500;600;700;900&family=Roboto+Mono:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #1E1E1E;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* base css */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.section-head{
+    text-align: center;
+    width:700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.section-head h3{
+  color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 500;
+}
+.section-head p{
+    font-size: 21px;
+   color: #FFFFFF;
+}
+/* main css */
+header{
+
+    margin: 12px 0px;
+
+}
+header .main-menu{
+    justify-content: space-between;
+   
+}
+header .logo{
+    
+ 
+}
+header .logo a{
+ 
+}
+header .logo a img{
+    width:200px;
+   
+}
+
+header .menu{
+    width: 85%;
+    margin-left: 100px;
+   
+}
+header .menu ul{
+    list-style-type: none;
+}
+
+header .menu li{
+    display: inline-block;
+}
+
+header .menu a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 15px;
+    margin: 0px 6px;
+    padding: 15px 12px;
+    display: inline-block;
+}
+header .menu .downlaod-cv{
+    background-color: #FD6F00;
+    border-radius: 5px;
+}
+/* serivec section start */
+#service {
+    padding:100px 0px;
+}
+.service-list .s-itme{
+    width:25%;
+    background-color: #F8F8F8;
+    margin: 8px 15px;
+    padding: 10px 15px;
+    border-radius: 14px;
+}
+.service-list .s-itme img{
+    width:40px;
+}
+
+.service-list .s-itme h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.service-list .s-itme p{
+    font-size: 19px;
+    color:#000;
+
+}
+/* serivec section start */
+
+/* project area start */
+#project{
+    padding:100px 0px;
+}
+
+.selectbar{
+    text-align: center;
+    margin: 10px 0px;
+}
+.selectbar button{
+    background-color: #F8F8F8; 
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 12px;
+    border:none;
+    color:#000;
+}
+.selectbar button.web-design{
+    background-color: #FD6F00;
+    color:#F8F8F8;
+    cursor: pointer;
+
+}
+.p-itme .item{
+    margin: 20px;
+    margin-top: 50px;
+    width:30%
+}
+.p-itme .item img{
+    width:100%;
+}
+
+.p-itme h5{
+    font-size: 19px;
+    color:#FD6F00;
+}
+.p-itme h4{
+    font-size: 24px;
+    font-weight: 700;
+    color:#F8F8F8
+}
+/* project area end */
+
+/* newsletter css */
+/* #newsletter{
+    padding:100px 0px;
+    display: table;
+    clear: both;
+} */
+#newsletter form{
+    margin: 40px 0px;
+}
+#newsletter form input[type="email"]{
+padding: 12px 20px;
+border: none;
+outline: none;
+border-radius: 14px ;
+width: 80%;
+
+}
+#newsletter form input[type="submit"]{
+    background-color: #FD6F00;
+    color:#FFFFFF;
+    padding:12px 20px;
+    border:none;
+    outline: none;
+    border-radius: 14px;
+    width:15%
+}
+#newsletter{
+    padding-bottom: 50px;
+}
+/* footer css */
+footer{
+    text-align: center;
+}
+
+footer .menu ul{
+    list-style-type: none;
+}
+
+footer .menu li{
+    display: inline-block;
+}
+
+footer .menu a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 15px;
+    margin: 0px 6px;
+    padding: 15px 12px;
+    display: inline-block;
+}
+
+footer .social-icon{
+
+}
+footer .social-icon i{
+    font-size: 25px;
+ color:#FFFFFF;
+ padding:5px ;
+ margin: 5px;
+ border:none;
+ padding-bottom:100px;
+}
+footer .copywrite {
+   
+}
+footer .copywrite p{
+   color:#FFFFFF;
+   padding:20px;
+   background-color: #000;
+}
+footer .copywrite a{
+    text-decoration: none;
+    color:#FD6F00;
+    text-align: center;
+}
+
+
+
+
